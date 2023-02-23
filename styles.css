@@ -1,0 +1,61 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+@media screen and (min-width: 480px) {
+  main {
+    flex-direction: row;
+  }
+}
+#overallResults {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  width: 350px;
+}
+
+#overallResults h2 {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: hsl(223, 34%, 75%);
+  font-weight: 600;
+}
+
+#circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(hsla(241, 72%, 46%, 1), hsla(256, 72%, 46%, 1));
+}
+
+#averageScore {
+  font-size: 3.5em;
+  color: white;
+  font-weight: 700;
+}
+.of100 {
+  color: hsl(222, 22%, 54%);
+  font-weight: 600;
+}
+#percentile {
+  color: hsl(223, 34%, 75%);
+  text-align: center;
+  width: 250px;
+  font-weight: 500;
+}
