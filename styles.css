@@ -8,6 +8,7 @@ main {
 @media screen and (min-width: 480px) {
   main {
     flex-direction: row;
+    box-shadow: 1em, 2em, 1em, lightgray;
   }
 }
 #overallResults {
@@ -58,4 +59,12 @@ h1 {
   text-align: center;
   width: 250px;
   font-weight: 500;
+}
+#sectionResults {
+  width: 350px;
+}
+.specificResult {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
 }
